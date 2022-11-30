@@ -1,0 +1,36 @@
+<div class="mainContainer">
+  <div class="left" id="sideMenu">
+    <div class="menu">
+      <ul id="menuUl">
+        <li>Menu 1</li>
+        <li>Menu 2</li>
+        <li>Menu 3</li>
+        <li>Menu 4</li>
+        <li>Menu 5</li>
+      </ul>
+    </div>
+  </div>
+  <div class="right">
+    <header>
+    <nav>
+      <ul>
+        <li>
+          <fa-icon [icon]="faCross" (click)="sideMenuDeactive()" id="faCross"></fa-icon>
+          <fa-icon [icon]="faBars" (click)="sideMenuActive()" id="hamIcon"></fa-icon>
+        </li>
+        <li>Energyviss / Live Dashboard</li>
+      </ul>
+      <ul>
+        <li><fa-icon [icon]="faRotateRight"></fa-icon></li>
+        <li><fa-icon [icon]="faClock"></fa-icon></li>
+        <li><fa-icon [icon]="faUser"></fa-icon></li>
+      </ul>
+    </nav>
+    </header>
+    <div class="bodyContainer">
+    <div class="dropdowns"><app-dropdowns></app-dropdowns></div>
+    <div class="gauges"><app-gauges></app-gauges></div>
+    <div class="charts"><app-charts></app-charts></div>
+  </div>
+  </div>
+</div>

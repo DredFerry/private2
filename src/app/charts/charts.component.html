@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="chart1">
+        <ejs-chart id="chart-container" [primaryXAxis]="primaryXAxis" [title]="title">
+            <e-series-collection>
+                <e-series [dataSource]="chartData" type="Line" xName="time" yName="power" ></e-series>
+            </e-series-collection>
+        </ejs-chart>
+    </div>
+    <div class="chart2">
+        <ejs-chart id="chart-container2" [primaryXAxis]="primaryXAxis" [title]="title2">
+            <e-series-collection>
+                <e-series [dataSource]="chartData2" type="Line" xName="time" yName="power" ></e-series>
+            </e-series-collection>
+        </ejs-chart>
+    </div>
+</div>

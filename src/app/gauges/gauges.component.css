@@ -1,0 +1,8 @@
+.container{
+    background: white;
+    margin: 1vh 1vw;
+    height: 25vh;
+    border-radius: 3px;
+    padding: 2vh 1vw;
+    /* margin-bottom: 2vh; */
+}

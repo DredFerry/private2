@@ -1,0 +1,48 @@
+.container1{
+    background: white;
+    margin: 0 1vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    margin-bottom: 2vh;
+}
+.container2{
+    background: white;
+    margin: 0 1vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+.mainList{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.subList{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+.values{
+    padding-left: 2px;
+    color: red;
+}
+select{
+    border-radius: 3px 3px 0px 0px;
+    padding: 0 10px;
+    height: 7vh;
+    width: 12vw;
+    border: none;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid black;
+}
+li{
+    list-style: none;
+    padding: 0 2px;
+}

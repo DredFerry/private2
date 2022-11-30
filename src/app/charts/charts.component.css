@@ -1,0 +1,19 @@
+.container{
+    margin: 0 1vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    border-radius: 3px;
+    margin-bottom: 2vh;
+}
+.chart1{
+    height: 100%;
+    width: 49.5%;
+    background-color: white;
+}
+.chart2{
+    height: 100%;
+    width: 49.5%;
+    background-color: white;
+}
